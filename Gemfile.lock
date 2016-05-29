@@ -22,8 +22,6 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.4.0)
     rspec-support (3.4.1)
-    usagewatch (0.0.7)
-    vmstat (2.1.0)
 
 PLATFORMS
   ruby
@@ -33,8 +31,6 @@ DEPENDENCIES
   rake (~> 11.1)
   rspec (~> 3.4)
   rspec-its (~> 1.2)
-  usagewatch (~> 0.0.7)
-  vmstat (~> 2.1)
 
 BUNDLED WITH
    1.12.3
