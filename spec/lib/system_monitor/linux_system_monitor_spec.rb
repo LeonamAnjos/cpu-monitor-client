@@ -16,15 +16,7 @@ describe SystemMonitor do
     before do
       expect(shell).to receive(:execute).with('df --total').and_return(
         "Filesystem     1K-blocks     Used Available Use% Mounted on\n"\
-        "udev             4004656        0   4004656   0% /dev\n"\
-        "tmpfs             804820    17988    786832   3% /run\n"\
-        "/dev/sda2       19091584  7502192  10596524  42% /\n"\
-        "tmpfs            4024096   374432   3649664  10% /dev/shm\n"\
-        "tmpfs               5120        4      5116   1% /run/lock\n"\
-        "tmpfs            4024096        0   4024096   0% /sys/fs/cgroup\n"\
         "/dev/sda1          47371     3610     43761   8% /boot/efi\n"\
-        "/dev/sda4      934340712 51453172 835402664   6% /home\n"\
-        "tmpfs             804820       12    804808   1% /run/user/120\n"\
         "tmpfs             804820       48    804772   1% /run/user/1000\n"\
         "total          967952095 59351458 860122893   7% -\n")
     end
@@ -36,11 +28,9 @@ describe SystemMonitor do
     before do
       expect(shell).to receive(:execute).with("ps aux | awk '{print $11, $3}' | sort -k2nr  | head -n 15").and_return(
           "/usr/lib/jvm/java-8-oracle/bin/java 5.3\n"\
-          "/opt/google/chrome/chrome 3.5\n/usr/bin/gnome-shell 2.8\n"\
+          "/opt/google/chrome/chrome 3.5\n"\
+          "/usr/bin/gnome-shell 2.8\n"\
           "/usr/lib/xorg/Xorg 2.7\n"\
-          "/opt/google/chrome/chrome 1.6\n"\
-          "/opt/google/chrome/chrome 1.4\n"\
-          "/opt/google/chrome/chrome 1.2\n"\
           "/opt/google/chrome/chrome 0.5\n"\
           "/usr/share/atom/atom 0.5\n")
     end
@@ -51,9 +41,6 @@ describe SystemMonitor do
           %w{/opt/google/chrome/chrome 3.5},
           %w{/usr/bin/gnome-shell 2.8},
           %w{/usr/lib/xorg/Xorg 2.7},
-          %w{/opt/google/chrome/chrome 1.6},
-          %w{/opt/google/chrome/chrome 1.4},
-          %w{/opt/google/chrome/chrome 1.2},
           %w{/opt/google/chrome/chrome 0.5},
           %w{/usr/share/atom/atom 0.5}
       ]
