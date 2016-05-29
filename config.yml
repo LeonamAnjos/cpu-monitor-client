@@ -1,0 +1,4 @@
+url: 'localhost:8000'
+id: '123456'
+hostname: 'leonam'
+log_file: 'log/cpu_monitor.log'
