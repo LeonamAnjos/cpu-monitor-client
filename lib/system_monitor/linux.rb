@@ -31,7 +31,7 @@ module SystemMonitor
     process
   end
 
-  def reboot_after(sec)
+  def self.reboot_after(sec)
     sleep(sec)
     shell.execute "echo shutdown -h now"
   end
@@ -51,7 +51,7 @@ module SystemMonitor
 
   def self.cpu_usage_percent(proc_total, proc_usage)
     cpu_usage = proc_total != 0 ? proc_usage.fdiv(proc_total) : 0
-    (cpu_usage * 100).round(2)
+    (cpu_usage * 100).round(5)
   end
 
   def self.total_df_values(df)
@@ -68,7 +68,7 @@ module SystemMonitor
 
   def self.disk_usage_percent(available, used)
     return 0 if available == 0
-    (used.fdiv(available) * 100).round(2)
+    (used.fdiv(available) * 100).round(5)
   end
 
 end

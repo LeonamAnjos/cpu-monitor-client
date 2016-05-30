@@ -22,6 +22,7 @@ class CpuMonitorJob
     if (response['action'] == 'reboot')
       SystemMonitor.reboot_after(2)
     end
+    response
   end
 
   private

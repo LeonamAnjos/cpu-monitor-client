@@ -9,7 +9,7 @@ describe SystemMonitor do
   describe '#cpu_usage' do
     before { expect(shell).to receive(:execute).with("cat /proc/stat | grep '^cpu '").and_return 'cpu  4520736 34092 743549 53679598 1168075 0 4510 0 0 0' }
 
-    its(:cpu_usage) { is_expected.to be_eql 8.98 }
+    its(:cpu_usage) { is_expected.to be_eql 8.98365 }
   end
 
   describe '#disk_usage' do
@@ -21,7 +21,7 @@ describe SystemMonitor do
         "total          967952095 59351458 860122893   7% -\n")
     end
 
-    its(:disk_usage) { is_expected.to be_eql 6.9 }
+    its(:disk_usage) { is_expected.to be_eql 6.90035 }
   end
 
   describe '#process_running' do

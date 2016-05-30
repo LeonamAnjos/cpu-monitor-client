@@ -13,8 +13,7 @@ describe SystemMonitor do
       expect(shell).to receive(:execute).with(kind_of String).and_return("/proc1 5.3\n/proc2 3.5\n")
     end
 
-    its(:report) { is_expected.to be_eql({cpu: 8.98, disk: 6.9, process: [ %w{/proc1 5.3}, %w{/proc2 3.5} ]})}
+    its(:report) { is_expected.to be_eql({cpu: 8.98365, disk: 6.90035, process: [ %w{/proc1 5.3}, %w{/proc2 3.5} ]})}
   end
 
 end
-

@@ -1,0 +1,1546 @@
+# Logfile created on 2016-05-30 14:36:59 -0300 by logger.rb/53141
+I, [2016-05-30T14:36:59.940001 #15481]  INFO -- : CPU Monitor Client Started!
+I, [2016-05-30T14:36:59.940056 #15481]  INFO -- : Config: {"url"=>"localhost:3000/update", "id"=>"123456", "hostname"=>"leonam", "log_file"=>"log/cpu_monitor.log"}
+RestClient.post "localhost:3000/update", 634 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"634", "Content-Type"=>"application/json"
+# => 404 NotFound | text/html 41969 bytes
+E, [2016-05-30T14:37:00.027997 #15481] ERROR -- : 404 Resource Not Found (RestClient::ResourceNotFound)
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/abstract_response.rb:74:in `return!'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:495:in `process_result'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:421:in `block in transmit'
+/home/leonam/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/net/http.rb:853:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:413:in `transmit'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:176:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:41:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient.rb:69:in `post'
+/home/leonam/repo/crossover/cpu-monitor-client/lib/cpu_monitor_job.rb:21:in `perform'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:16:in `block in execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `loop'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:44:in `<top (required)>'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `start_load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:297:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/controller.rb:56:in `run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:144:in `block in run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `catch_exceptions'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:143:in `run'
+cpu_monitor_control.rb:4:in `<main>'
+RestClient.post "localhost:3000/update", 633 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"633", "Content-Type"=>"application/json"
+# => 404 NotFound | text/html 41968 bytes
+E, [2016-05-30T14:37:05.148729 #15481] ERROR -- : 404 Resource Not Found (RestClient::ResourceNotFound)
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/abstract_response.rb:74:in `return!'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:495:in `process_result'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:421:in `block in transmit'
+/home/leonam/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/net/http.rb:853:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:413:in `transmit'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:176:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:41:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient.rb:69:in `post'
+/home/leonam/repo/crossover/cpu-monitor-client/lib/cpu_monitor_job.rb:21:in `perform'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:16:in `block in execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `loop'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:44:in `<top (required)>'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `start_load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:297:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/controller.rb:56:in `run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:144:in `block in run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `catch_exceptions'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:143:in `run'
+cpu_monitor_control.rb:4:in `<main>'
+RestClient.post "localhost:3000/update", 633 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"633", "Content-Type"=>"application/json"
+# => 404 NotFound | text/html 41968 bytes
+E, [2016-05-30T14:37:10.299020 #15481] ERROR -- : 404 Resource Not Found (RestClient::ResourceNotFound)
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/abstract_response.rb:74:in `return!'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:495:in `process_result'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:421:in `block in transmit'
+/home/leonam/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/net/http.rb:853:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:413:in `transmit'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:176:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:41:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient.rb:69:in `post'
+/home/leonam/repo/crossover/cpu-monitor-client/lib/cpu_monitor_job.rb:21:in `perform'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:16:in `block in execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `loop'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:44:in `<top (required)>'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `start_load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:297:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/controller.rb:56:in `run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:144:in `block in run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `catch_exceptions'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:143:in `run'
+cpu_monitor_control.rb:4:in `<main>'
+RestClient.post "localhost:3000/update", 633 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"633", "Content-Type"=>"application/json"
+# => 404 NotFound | text/html 41968 bytes
+E, [2016-05-30T14:37:15.424840 #15481] ERROR -- : 404 Resource Not Found (RestClient::ResourceNotFound)
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/abstract_response.rb:74:in `return!'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:495:in `process_result'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:421:in `block in transmit'
+/home/leonam/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/net/http.rb:853:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:413:in `transmit'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:176:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:41:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient.rb:69:in `post'
+/home/leonam/repo/crossover/cpu-monitor-client/lib/cpu_monitor_job.rb:21:in `perform'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:16:in `block in execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `loop'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:44:in `<top (required)>'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `start_load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:297:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/controller.rb:56:in `run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:144:in `block in run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `catch_exceptions'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:143:in `run'
+cpu_monitor_control.rb:4:in `<main>'
+RestClient.post "localhost:3000/update", 633 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"633", "Content-Type"=>"application/json"
+# => 404 NotFound | text/html 41968 bytes
+E, [2016-05-30T14:37:20.555080 #15481] ERROR -- : 404 Resource Not Found (RestClient::ResourceNotFound)
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/abstract_response.rb:74:in `return!'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:495:in `process_result'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:421:in `block in transmit'
+/home/leonam/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/net/http.rb:853:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:413:in `transmit'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:176:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:41:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient.rb:69:in `post'
+/home/leonam/repo/crossover/cpu-monitor-client/lib/cpu_monitor_job.rb:21:in `perform'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:16:in `block in execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `loop'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:44:in `<top (required)>'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `start_load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:297:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/controller.rb:56:in `run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:144:in `block in run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `catch_exceptions'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:143:in `run'
+cpu_monitor_control.rb:4:in `<main>'
+RestClient.post "localhost:3000/update", 633 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"633", "Content-Type"=>"application/json"
+# => 404 NotFound | text/html 41968 bytes
+E, [2016-05-30T14:37:25.669734 #15481] ERROR -- : 404 Resource Not Found (RestClient::ResourceNotFound)
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/abstract_response.rb:74:in `return!'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:495:in `process_result'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:421:in `block in transmit'
+/home/leonam/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/net/http.rb:853:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:413:in `transmit'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:176:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:41:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient.rb:69:in `post'
+/home/leonam/repo/crossover/cpu-monitor-client/lib/cpu_monitor_job.rb:21:in `perform'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:16:in `block in execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `loop'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:44:in `<top (required)>'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `start_load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:297:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/controller.rb:56:in `run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:144:in `block in run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `catch_exceptions'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:143:in `run'
+cpu_monitor_control.rb:4:in `<main>'
+RestClient.post "localhost:3000/update", 633 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"633", "Content-Type"=>"application/json"
+# => 404 NotFound | text/html 41968 bytes
+E, [2016-05-30T14:37:30.765610 #15481] ERROR -- : 404 Resource Not Found (RestClient::ResourceNotFound)
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/abstract_response.rb:74:in `return!'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:495:in `process_result'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:421:in `block in transmit'
+/home/leonam/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/net/http.rb:853:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:413:in `transmit'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:176:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:41:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient.rb:69:in `post'
+/home/leonam/repo/crossover/cpu-monitor-client/lib/cpu_monitor_job.rb:21:in `perform'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:16:in `block in execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `loop'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:44:in `<top (required)>'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `start_load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:297:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/controller.rb:56:in `run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:144:in `block in run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `catch_exceptions'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:143:in `run'
+cpu_monitor_control.rb:4:in `<main>'
+RestClient.post "localhost:3000/update", 633 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"633", "Content-Type"=>"application/json"
+# => 404 NotFound | text/html 41968 bytes
+E, [2016-05-30T14:37:35.915084 #15481] ERROR -- : 404 Resource Not Found (RestClient::ResourceNotFound)
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/abstract_response.rb:74:in `return!'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:495:in `process_result'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:421:in `block in transmit'
+/home/leonam/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/net/http.rb:853:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:413:in `transmit'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:176:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:41:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient.rb:69:in `post'
+/home/leonam/repo/crossover/cpu-monitor-client/lib/cpu_monitor_job.rb:21:in `perform'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:16:in `block in execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `loop'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:44:in `<top (required)>'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `start_load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:297:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/controller.rb:56:in `run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:144:in `block in run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `catch_exceptions'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:143:in `run'
+cpu_monitor_control.rb:4:in `<main>'
+RestClient.post "localhost:3000/update", 633 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"633", "Content-Type"=>"application/json"
+# => 404 NotFound | text/html 41968 bytes
+E, [2016-05-30T14:37:41.008059 #15481] ERROR -- : 404 Resource Not Found (RestClient::ResourceNotFound)
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/abstract_response.rb:74:in `return!'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:495:in `process_result'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:421:in `block in transmit'
+/home/leonam/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/net/http.rb:853:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:413:in `transmit'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:176:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:41:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient.rb:69:in `post'
+/home/leonam/repo/crossover/cpu-monitor-client/lib/cpu_monitor_job.rb:21:in `perform'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:16:in `block in execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `loop'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:44:in `<top (required)>'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `start_load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:297:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/controller.rb:56:in `run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:144:in `block in run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `catch_exceptions'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:143:in `run'
+cpu_monitor_control.rb:4:in `<main>'
+RestClient.post "localhost:3000/update", 633 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"633", "Content-Type"=>"application/json"
+# => 404 NotFound | text/html 41968 bytes
+E, [2016-05-30T14:37:46.153720 #15481] ERROR -- : 404 Resource Not Found (RestClient::ResourceNotFound)
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/abstract_response.rb:74:in `return!'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:495:in `process_result'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:421:in `block in transmit'
+/home/leonam/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/net/http.rb:853:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:413:in `transmit'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:176:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:41:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient.rb:69:in `post'
+/home/leonam/repo/crossover/cpu-monitor-client/lib/cpu_monitor_job.rb:21:in `perform'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:16:in `block in execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `loop'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:44:in `<top (required)>'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `start_load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:297:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/controller.rb:56:in `run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:144:in `block in run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `catch_exceptions'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:143:in `run'
+cpu_monitor_control.rb:4:in `<main>'
+RestClient.post "localhost:3000/update", 633 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"633", "Content-Type"=>"application/json"
+# => 404 NotFound | text/html 41968 bytes
+E, [2016-05-30T14:37:51.295005 #15481] ERROR -- : 404 Resource Not Found (RestClient::ResourceNotFound)
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/abstract_response.rb:74:in `return!'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:495:in `process_result'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:421:in `block in transmit'
+/home/leonam/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/net/http.rb:853:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:413:in `transmit'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:176:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:41:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient.rb:69:in `post'
+/home/leonam/repo/crossover/cpu-monitor-client/lib/cpu_monitor_job.rb:21:in `perform'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:16:in `block in execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `loop'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:44:in `<top (required)>'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `start_load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:297:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/controller.rb:56:in `run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:144:in `block in run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `catch_exceptions'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:143:in `run'
+cpu_monitor_control.rb:4:in `<main>'
+RestClient.post "localhost:3000/update", 633 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"633", "Content-Type"=>"application/json"
+# => 404 NotFound | text/html 41968 bytes
+E, [2016-05-30T14:37:56.427058 #15481] ERROR -- : 404 Resource Not Found (RestClient::ResourceNotFound)
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/abstract_response.rb:74:in `return!'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:495:in `process_result'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:421:in `block in transmit'
+/home/leonam/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/net/http.rb:853:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:413:in `transmit'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:176:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:41:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient.rb:69:in `post'
+/home/leonam/repo/crossover/cpu-monitor-client/lib/cpu_monitor_job.rb:21:in `perform'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:16:in `block in execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `loop'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:44:in `<top (required)>'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `start_load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:297:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/controller.rb:56:in `run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:144:in `block in run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `catch_exceptions'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:143:in `run'
+cpu_monitor_control.rb:4:in `<main>'
+RestClient.post "localhost:3000/update", 633 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"633", "Content-Type"=>"application/json"
+# => 404 NotFound | text/html 41968 bytes
+E, [2016-05-30T14:38:01.569103 #15481] ERROR -- : 404 Resource Not Found (RestClient::ResourceNotFound)
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/abstract_response.rb:74:in `return!'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:495:in `process_result'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:421:in `block in transmit'
+/home/leonam/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/net/http.rb:853:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:413:in `transmit'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:176:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:41:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient.rb:69:in `post'
+/home/leonam/repo/crossover/cpu-monitor-client/lib/cpu_monitor_job.rb:21:in `perform'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:16:in `block in execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `loop'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:44:in `<top (required)>'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `start_load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:297:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/controller.rb:56:in `run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:144:in `block in run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `catch_exceptions'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:143:in `run'
+cpu_monitor_control.rb:4:in `<main>'
+RestClient.post "localhost:3000/update", 633 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"633", "Content-Type"=>"application/json"
+# => 404 NotFound | text/html 41968 bytes
+E, [2016-05-30T14:38:06.710176 #15481] ERROR -- : 404 Resource Not Found (RestClient::ResourceNotFound)
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/abstract_response.rb:74:in `return!'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:495:in `process_result'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:421:in `block in transmit'
+/home/leonam/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/net/http.rb:853:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:413:in `transmit'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:176:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:41:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient.rb:69:in `post'
+/home/leonam/repo/crossover/cpu-monitor-client/lib/cpu_monitor_job.rb:21:in `perform'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:16:in `block in execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `loop'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:44:in `<top (required)>'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `start_load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:297:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/controller.rb:56:in `run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:144:in `block in run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `catch_exceptions'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:143:in `run'
+cpu_monitor_control.rb:4:in `<main>'
+RestClient.post "localhost:3000/update", 633 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"633", "Content-Type"=>"application/json"
+# => 404 NotFound | text/html 41968 bytes
+E, [2016-05-30T14:38:11.845007 #15481] ERROR -- : 404 Resource Not Found (RestClient::ResourceNotFound)
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/abstract_response.rb:74:in `return!'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:495:in `process_result'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:421:in `block in transmit'
+/home/leonam/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/net/http.rb:853:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:413:in `transmit'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:176:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:41:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient.rb:69:in `post'
+/home/leonam/repo/crossover/cpu-monitor-client/lib/cpu_monitor_job.rb:21:in `perform'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:16:in `block in execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `loop'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:44:in `<top (required)>'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `start_load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:297:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/controller.rb:56:in `run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:144:in `block in run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `catch_exceptions'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:143:in `run'
+cpu_monitor_control.rb:4:in `<main>'
+RestClient.post "localhost:3000/update", 633 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"633", "Content-Type"=>"application/json"
+# => 404 NotFound | text/html 41968 bytes
+E, [2016-05-30T14:38:16.986601 #15481] ERROR -- : 404 Resource Not Found (RestClient::ResourceNotFound)
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/abstract_response.rb:74:in `return!'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:495:in `process_result'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:421:in `block in transmit'
+/home/leonam/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/net/http.rb:853:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:413:in `transmit'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:176:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:41:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient.rb:69:in `post'
+/home/leonam/repo/crossover/cpu-monitor-client/lib/cpu_monitor_job.rb:21:in `perform'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:16:in `block in execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `loop'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:44:in `<top (required)>'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `start_load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:297:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/controller.rb:56:in `run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:144:in `block in run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `catch_exceptions'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:143:in `run'
+cpu_monitor_control.rb:4:in `<main>'
+RestClient.post "localhost:3000/update", 633 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"633", "Content-Type"=>"application/json"
+# => 404 NotFound | text/html 41968 bytes
+E, [2016-05-30T14:38:22.124368 #15481] ERROR -- : 404 Resource Not Found (RestClient::ResourceNotFound)
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/abstract_response.rb:74:in `return!'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:495:in `process_result'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:421:in `block in transmit'
+/home/leonam/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/net/http.rb:853:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:413:in `transmit'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:176:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:41:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient.rb:69:in `post'
+/home/leonam/repo/crossover/cpu-monitor-client/lib/cpu_monitor_job.rb:21:in `perform'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:16:in `block in execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `loop'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:44:in `<top (required)>'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `start_load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:297:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/controller.rb:56:in `run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:144:in `block in run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `catch_exceptions'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:143:in `run'
+cpu_monitor_control.rb:4:in `<main>'
+RestClient.post "localhost:3000/update", 633 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"633", "Content-Type"=>"application/json"
+# => 404 NotFound | text/html 41968 bytes
+E, [2016-05-30T14:38:27.254613 #15481] ERROR -- : 404 Resource Not Found (RestClient::ResourceNotFound)
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/abstract_response.rb:74:in `return!'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:495:in `process_result'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:421:in `block in transmit'
+/home/leonam/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/net/http.rb:853:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:413:in `transmit'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:176:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:41:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient.rb:69:in `post'
+/home/leonam/repo/crossover/cpu-monitor-client/lib/cpu_monitor_job.rb:21:in `perform'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:16:in `block in execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `loop'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:44:in `<top (required)>'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `start_load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:297:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/controller.rb:56:in `run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:144:in `block in run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `catch_exceptions'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:143:in `run'
+cpu_monitor_control.rb:4:in `<main>'
+RestClient.post "localhost:3000/update", 633 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"633", "Content-Type"=>"application/json"
+# => 404 NotFound | text/html 41968 bytes
+E, [2016-05-30T14:38:32.363137 #15481] ERROR -- : 404 Resource Not Found (RestClient::ResourceNotFound)
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/abstract_response.rb:74:in `return!'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:495:in `process_result'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:421:in `block in transmit'
+/home/leonam/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/net/http.rb:853:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:413:in `transmit'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:176:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:41:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient.rb:69:in `post'
+/home/leonam/repo/crossover/cpu-monitor-client/lib/cpu_monitor_job.rb:21:in `perform'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:16:in `block in execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `loop'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:44:in `<top (required)>'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `start_load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:297:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/controller.rb:56:in `run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:144:in `block in run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `catch_exceptions'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:143:in `run'
+cpu_monitor_control.rb:4:in `<main>'
+RestClient.post "localhost:3000/update", 633 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"633", "Content-Type"=>"application/json"
+# => 404 NotFound | text/html 41968 bytes
+E, [2016-05-30T14:38:37.514979 #15481] ERROR -- : 404 Resource Not Found (RestClient::ResourceNotFound)
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/abstract_response.rb:74:in `return!'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:495:in `process_result'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:421:in `block in transmit'
+/home/leonam/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/net/http.rb:853:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:413:in `transmit'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:176:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:41:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient.rb:69:in `post'
+/home/leonam/repo/crossover/cpu-monitor-client/lib/cpu_monitor_job.rb:21:in `perform'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:16:in `block in execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `loop'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:44:in `<top (required)>'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `start_load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:297:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/controller.rb:56:in `run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:144:in `block in run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `catch_exceptions'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:143:in `run'
+cpu_monitor_control.rb:4:in `<main>'
+RestClient.post "localhost:3000/update", 633 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"633", "Content-Type"=>"application/json"
+# => 404 NotFound | text/html 41968 bytes
+E, [2016-05-30T14:38:42.629119 #15481] ERROR -- : 404 Resource Not Found (RestClient::ResourceNotFound)
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/abstract_response.rb:74:in `return!'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:495:in `process_result'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:421:in `block in transmit'
+/home/leonam/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/net/http.rb:853:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:413:in `transmit'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:176:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:41:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient.rb:69:in `post'
+/home/leonam/repo/crossover/cpu-monitor-client/lib/cpu_monitor_job.rb:21:in `perform'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:16:in `block in execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `loop'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:44:in `<top (required)>'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `start_load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:297:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/controller.rb:56:in `run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:144:in `block in run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `catch_exceptions'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:143:in `run'
+cpu_monitor_control.rb:4:in `<main>'
+I, [2016-05-30T14:38:48.704415 #15751]  INFO -- : CPU Monitor Client Started!
+I, [2016-05-30T14:38:48.704494 #15751]  INFO -- : Config: {"url"=>"localhost:3000/update", "id"=>"123456", "hostname"=>"leonam", "log_file"=>"log/cpu_monitor.log"}
+RestClient.post "localhost:3000/update", 644 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"644", "Content-Type"=>"application/json"
+# => 404 NotFound | text/html 41979 bytes
+E, [2016-05-30T14:38:48.790997 #15751] ERROR -- : 404 Resource Not Found (RestClient::ResourceNotFound)
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/abstract_response.rb:74:in `return!'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:495:in `process_result'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:421:in `block in transmit'
+/home/leonam/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/net/http.rb:853:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:413:in `transmit'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:176:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:41:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient.rb:69:in `post'
+/home/leonam/repo/crossover/cpu-monitor-client/lib/cpu_monitor_job.rb:21:in `perform'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:16:in `block in execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `loop'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:44:in `<top (required)>'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `start_load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:297:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/controller.rb:59:in `run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:144:in `block in run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `catch_exceptions'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:143:in `run'
+cpu_monitor_control.rb:4:in `<main>'
+RestClient.post "localhost:3000/update", 623 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"623", "Content-Type"=>"application/json"
+# => 404 NotFound | text/html 41958 bytes
+E, [2016-05-30T14:38:53.943088 #15751] ERROR -- : 404 Resource Not Found (RestClient::ResourceNotFound)
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/abstract_response.rb:74:in `return!'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:495:in `process_result'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:421:in `block in transmit'
+/home/leonam/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/net/http.rb:853:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:413:in `transmit'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:176:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:41:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient.rb:69:in `post'
+/home/leonam/repo/crossover/cpu-monitor-client/lib/cpu_monitor_job.rb:21:in `perform'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:16:in `block in execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `loop'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:44:in `<top (required)>'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `start_load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:297:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/controller.rb:59:in `run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:144:in `block in run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `catch_exceptions'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:143:in `run'
+cpu_monitor_control.rb:4:in `<main>'
+RestClient.post "localhost:3000/update", 623 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"623", "Content-Type"=>"application/json"
+# => 404 NotFound | text/html 41958 bytes
+E, [2016-05-30T14:38:59.091054 #15751] ERROR -- : 404 Resource Not Found (RestClient::ResourceNotFound)
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/abstract_response.rb:74:in `return!'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:495:in `process_result'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:421:in `block in transmit'
+/home/leonam/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/net/http.rb:853:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:413:in `transmit'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:176:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:41:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient.rb:69:in `post'
+/home/leonam/repo/crossover/cpu-monitor-client/lib/cpu_monitor_job.rb:21:in `perform'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:16:in `block in execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `loop'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:44:in `<top (required)>'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `start_load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:297:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/controller.rb:59:in `run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:144:in `block in run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `catch_exceptions'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:143:in `run'
+cpu_monitor_control.rb:4:in `<main>'
+RestClient.post "localhost:3000/update", 623 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"623", "Content-Type"=>"application/json"
+# => 404 NotFound | text/html 41958 bytes
+E, [2016-05-30T14:39:04.228048 #15751] ERROR -- : 404 Resource Not Found (RestClient::ResourceNotFound)
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/abstract_response.rb:74:in `return!'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:495:in `process_result'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:421:in `block in transmit'
+/home/leonam/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/net/http.rb:853:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:413:in `transmit'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:176:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:41:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient.rb:69:in `post'
+/home/leonam/repo/crossover/cpu-monitor-client/lib/cpu_monitor_job.rb:21:in `perform'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:16:in `block in execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `loop'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:44:in `<top (required)>'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `start_load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:297:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/controller.rb:59:in `run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:144:in `block in run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `catch_exceptions'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:143:in `run'
+cpu_monitor_control.rb:4:in `<main>'
+RestClient.post "localhost:3000/update", 623 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"623", "Content-Type"=>"application/json"
+# => 404 NotFound | text/html 41958 bytes
+E, [2016-05-30T14:39:09.370982 #15751] ERROR -- : 404 Resource Not Found (RestClient::ResourceNotFound)
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/abstract_response.rb:74:in `return!'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:495:in `process_result'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:421:in `block in transmit'
+/home/leonam/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/net/http.rb:853:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:413:in `transmit'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:176:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:41:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient.rb:69:in `post'
+/home/leonam/repo/crossover/cpu-monitor-client/lib/cpu_monitor_job.rb:21:in `perform'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:16:in `block in execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `loop'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:44:in `<top (required)>'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `start_load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:297:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/controller.rb:59:in `run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:144:in `block in run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `catch_exceptions'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:143:in `run'
+cpu_monitor_control.rb:4:in `<main>'
+RestClient.post "localhost:3000/update", 623 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"623", "Content-Type"=>"application/json"
+# => 404 NotFound | text/html 41958 bytes
+E, [2016-05-30T14:39:14.496636 #15751] ERROR -- : 404 Resource Not Found (RestClient::ResourceNotFound)
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/abstract_response.rb:74:in `return!'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:495:in `process_result'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:421:in `block in transmit'
+/home/leonam/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/net/http.rb:853:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:413:in `transmit'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:176:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:41:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient.rb:69:in `post'
+/home/leonam/repo/crossover/cpu-monitor-client/lib/cpu_monitor_job.rb:21:in `perform'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:16:in `block in execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `loop'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:44:in `<top (required)>'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `start_load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:297:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/controller.rb:59:in `run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:144:in `block in run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `catch_exceptions'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:143:in `run'
+cpu_monitor_control.rb:4:in `<main>'
+RestClient.post "localhost:3000/update", 623 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"623", "Content-Type"=>"application/json"
+# => 404 NotFound | text/html 41958 bytes
+E, [2016-05-30T14:39:19.620581 #15751] ERROR -- : 404 Resource Not Found (RestClient::ResourceNotFound)
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/abstract_response.rb:74:in `return!'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:495:in `process_result'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:421:in `block in transmit'
+/home/leonam/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/net/http.rb:853:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:413:in `transmit'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:176:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:41:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient.rb:69:in `post'
+/home/leonam/repo/crossover/cpu-monitor-client/lib/cpu_monitor_job.rb:21:in `perform'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:16:in `block in execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `loop'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:44:in `<top (required)>'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `start_load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:297:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/controller.rb:59:in `run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:144:in `block in run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `catch_exceptions'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:143:in `run'
+cpu_monitor_control.rb:4:in `<main>'
+RestClient.post "localhost:3000/update", 623 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"623", "Content-Type"=>"application/json"
+# => 404 NotFound | text/html 41958 bytes
+E, [2016-05-30T14:39:24.760567 #15751] ERROR -- : 404 Resource Not Found (RestClient::ResourceNotFound)
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/abstract_response.rb:74:in `return!'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:495:in `process_result'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:421:in `block in transmit'
+/home/leonam/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/net/http.rb:853:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:413:in `transmit'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:176:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:41:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient.rb:69:in `post'
+/home/leonam/repo/crossover/cpu-monitor-client/lib/cpu_monitor_job.rb:21:in `perform'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:16:in `block in execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `loop'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:44:in `<top (required)>'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `start_load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:297:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/controller.rb:59:in `run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:144:in `block in run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `catch_exceptions'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:143:in `run'
+cpu_monitor_control.rb:4:in `<main>'
+RestClient.post "localhost:3000/update", 623 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"623", "Content-Type"=>"application/json"
+# => 404 NotFound | text/html 41958 bytes
+E, [2016-05-30T14:39:29.891947 #15751] ERROR -- : 404 Resource Not Found (RestClient::ResourceNotFound)
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/abstract_response.rb:74:in `return!'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:495:in `process_result'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:421:in `block in transmit'
+/home/leonam/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/net/http.rb:853:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:413:in `transmit'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:176:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:41:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient.rb:69:in `post'
+/home/leonam/repo/crossover/cpu-monitor-client/lib/cpu_monitor_job.rb:21:in `perform'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:16:in `block in execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `loop'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:44:in `<top (required)>'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `start_load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:297:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/controller.rb:59:in `run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:144:in `block in run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `catch_exceptions'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:143:in `run'
+cpu_monitor_control.rb:4:in `<main>'
+RestClient.post "localhost:3000/update", 623 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"623", "Content-Type"=>"application/json"
+# => 404 NotFound | text/html 41958 bytes
+E, [2016-05-30T14:39:35.019675 #15751] ERROR -- : 404 Resource Not Found (RestClient::ResourceNotFound)
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/abstract_response.rb:74:in `return!'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:495:in `process_result'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:421:in `block in transmit'
+/home/leonam/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/net/http.rb:853:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:413:in `transmit'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:176:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:41:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient.rb:69:in `post'
+/home/leonam/repo/crossover/cpu-monitor-client/lib/cpu_monitor_job.rb:21:in `perform'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:16:in `block in execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `loop'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:44:in `<top (required)>'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `start_load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:297:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/controller.rb:59:in `run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:144:in `block in run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `catch_exceptions'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:143:in `run'
+cpu_monitor_control.rb:4:in `<main>'
+RestClient.post "localhost:3000/update", 623 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"623", "Content-Type"=>"application/json"
+# => 404 NotFound | text/html 41958 bytes
+E, [2016-05-30T14:39:40.139922 #15751] ERROR -- : 404 Resource Not Found (RestClient::ResourceNotFound)
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/abstract_response.rb:74:in `return!'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:495:in `process_result'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:421:in `block in transmit'
+/home/leonam/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/net/http.rb:853:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:413:in `transmit'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:176:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:41:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient.rb:69:in `post'
+/home/leonam/repo/crossover/cpu-monitor-client/lib/cpu_monitor_job.rb:21:in `perform'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:16:in `block in execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `loop'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:44:in `<top (required)>'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `start_load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:297:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/controller.rb:59:in `run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:144:in `block in run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `catch_exceptions'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:143:in `run'
+cpu_monitor_control.rb:4:in `<main>'
+RestClient.post "localhost:3000/update", 623 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"623", "Content-Type"=>"application/json"
+# => 404 NotFound | text/html 41958 bytes
+E, [2016-05-30T14:39:45.258659 #15751] ERROR -- : 404 Resource Not Found (RestClient::ResourceNotFound)
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/abstract_response.rb:74:in `return!'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:495:in `process_result'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:421:in `block in transmit'
+/home/leonam/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/net/http.rb:853:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:413:in `transmit'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:176:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:41:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient.rb:69:in `post'
+/home/leonam/repo/crossover/cpu-monitor-client/lib/cpu_monitor_job.rb:21:in `perform'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:16:in `block in execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `loop'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:44:in `<top (required)>'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `start_load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:297:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/controller.rb:59:in `run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:144:in `block in run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `catch_exceptions'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:143:in `run'
+cpu_monitor_control.rb:4:in `<main>'
+RestClient.post "localhost:3000/update", 623 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"623", "Content-Type"=>"application/json"
+# => 404 NotFound | text/html 41958 bytes
+E, [2016-05-30T14:39:50.378444 #15751] ERROR -- : 404 Resource Not Found (RestClient::ResourceNotFound)
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/abstract_response.rb:74:in `return!'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:495:in `process_result'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:421:in `block in transmit'
+/home/leonam/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/net/http.rb:853:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:413:in `transmit'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:176:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:41:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient.rb:69:in `post'
+/home/leonam/repo/crossover/cpu-monitor-client/lib/cpu_monitor_job.rb:21:in `perform'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:16:in `block in execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `loop'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:44:in `<top (required)>'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `start_load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:297:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/controller.rb:59:in `run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:144:in `block in run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `catch_exceptions'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:143:in `run'
+cpu_monitor_control.rb:4:in `<main>'
+RestClient.post "localhost:3000/update", 623 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"623", "Content-Type"=>"application/json"
+# => 404 NotFound | text/html 41958 bytes
+E, [2016-05-30T14:39:55.465932 #15751] ERROR -- : 404 Resource Not Found (RestClient::ResourceNotFound)
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/abstract_response.rb:74:in `return!'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:495:in `process_result'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:421:in `block in transmit'
+/home/leonam/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/net/http.rb:853:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:413:in `transmit'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:176:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:41:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient.rb:69:in `post'
+/home/leonam/repo/crossover/cpu-monitor-client/lib/cpu_monitor_job.rb:21:in `perform'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:16:in `block in execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `loop'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:44:in `<top (required)>'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `start_load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:297:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/controller.rb:59:in `run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:144:in `block in run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `catch_exceptions'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:143:in `run'
+cpu_monitor_control.rb:4:in `<main>'
+RestClient.post "localhost:3000/update", 623 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"623", "Content-Type"=>"application/json"
+# => 404 NotFound | text/html 41958 bytes
+E, [2016-05-30T14:40:00.622076 #15751] ERROR -- : 404 Resource Not Found (RestClient::ResourceNotFound)
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/abstract_response.rb:74:in `return!'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:495:in `process_result'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:421:in `block in transmit'
+/home/leonam/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/net/http.rb:853:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:413:in `transmit'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:176:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:41:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient.rb:69:in `post'
+/home/leonam/repo/crossover/cpu-monitor-client/lib/cpu_monitor_job.rb:21:in `perform'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:16:in `block in execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `loop'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:44:in `<top (required)>'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `start_load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:297:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/controller.rb:59:in `run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:144:in `block in run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `catch_exceptions'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:143:in `run'
+cpu_monitor_control.rb:4:in `<main>'
+RestClient.post "localhost:3000/update", 623 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"623", "Content-Type"=>"application/json"
+# => 404 NotFound | text/html 41958 bytes
+E, [2016-05-30T14:40:05.758670 #15751] ERROR -- : 404 Resource Not Found (RestClient::ResourceNotFound)
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/abstract_response.rb:74:in `return!'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:495:in `process_result'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:421:in `block in transmit'
+/home/leonam/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/net/http.rb:853:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:413:in `transmit'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:176:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:41:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient.rb:69:in `post'
+/home/leonam/repo/crossover/cpu-monitor-client/lib/cpu_monitor_job.rb:21:in `perform'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:16:in `block in execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `loop'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:44:in `<top (required)>'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `start_load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:297:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/controller.rb:59:in `run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:144:in `block in run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `catch_exceptions'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:143:in `run'
+cpu_monitor_control.rb:4:in `<main>'
+RestClient.post "localhost:3000/update", 623 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"623", "Content-Type"=>"application/json"
+# => 404 NotFound | text/html 41958 bytes
+E, [2016-05-30T14:40:10.928096 #15751] ERROR -- : 404 Resource Not Found (RestClient::ResourceNotFound)
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/abstract_response.rb:74:in `return!'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:495:in `process_result'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:421:in `block in transmit'
+/home/leonam/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/net/http.rb:853:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:413:in `transmit'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:176:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:41:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient.rb:69:in `post'
+/home/leonam/repo/crossover/cpu-monitor-client/lib/cpu_monitor_job.rb:21:in `perform'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:16:in `block in execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `loop'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:44:in `<top (required)>'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `start_load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:297:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/controller.rb:59:in `run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:144:in `block in run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `catch_exceptions'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:143:in `run'
+cpu_monitor_control.rb:4:in `<main>'
+RestClient.post "localhost:3000/update", 623 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"623", "Content-Type"=>"application/json"
+# => 404 NotFound | text/html 41958 bytes
+E, [2016-05-30T14:40:16.067163 #15751] ERROR -- : 404 Resource Not Found (RestClient::ResourceNotFound)
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/abstract_response.rb:74:in `return!'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:495:in `process_result'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:421:in `block in transmit'
+/home/leonam/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/net/http.rb:853:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:413:in `transmit'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:176:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:41:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient.rb:69:in `post'
+/home/leonam/repo/crossover/cpu-monitor-client/lib/cpu_monitor_job.rb:21:in `perform'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:16:in `block in execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `loop'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:44:in `<top (required)>'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `start_load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:297:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/controller.rb:59:in `run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:144:in `block in run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `catch_exceptions'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:143:in `run'
+cpu_monitor_control.rb:4:in `<main>'
+RestClient.post "localhost:3000/update", 623 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"623", "Content-Type"=>"application/json"
+# => 404 NotFound | text/html 41958 bytes
+E, [2016-05-30T14:40:21.174863 #15751] ERROR -- : 404 Resource Not Found (RestClient::ResourceNotFound)
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/abstract_response.rb:74:in `return!'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:495:in `process_result'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:421:in `block in transmit'
+/home/leonam/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/net/http.rb:853:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:413:in `transmit'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:176:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:41:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient.rb:69:in `post'
+/home/leonam/repo/crossover/cpu-monitor-client/lib/cpu_monitor_job.rb:21:in `perform'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:16:in `block in execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `loop'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:44:in `<top (required)>'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `start_load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:297:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/controller.rb:59:in `run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:144:in `block in run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `catch_exceptions'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:143:in `run'
+cpu_monitor_control.rb:4:in `<main>'
+RestClient.post "localhost:3000/update", 623 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"623", "Content-Type"=>"application/json"
+# => 404 NotFound | text/html 41958 bytes
+E, [2016-05-30T14:40:26.259418 #15751] ERROR -- : 404 Resource Not Found (RestClient::ResourceNotFound)
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/abstract_response.rb:74:in `return!'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:495:in `process_result'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:421:in `block in transmit'
+/home/leonam/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/net/http.rb:853:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:413:in `transmit'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:176:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:41:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient.rb:69:in `post'
+/home/leonam/repo/crossover/cpu-monitor-client/lib/cpu_monitor_job.rb:21:in `perform'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:16:in `block in execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `loop'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:44:in `<top (required)>'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `start_load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:297:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/controller.rb:59:in `run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:144:in `block in run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `catch_exceptions'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:143:in `run'
+cpu_monitor_control.rb:4:in `<main>'
+RestClient.post "localhost:3000/update", 623 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"623", "Content-Type"=>"application/json"
+# => 404 NotFound | text/html 41958 bytes
+E, [2016-05-30T14:40:31.397478 #15751] ERROR -- : 404 Resource Not Found (RestClient::ResourceNotFound)
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/abstract_response.rb:74:in `return!'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:495:in `process_result'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:421:in `block in transmit'
+/home/leonam/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/net/http.rb:853:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:413:in `transmit'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:176:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:41:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient.rb:69:in `post'
+/home/leonam/repo/crossover/cpu-monitor-client/lib/cpu_monitor_job.rb:21:in `perform'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:16:in `block in execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `loop'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:44:in `<top (required)>'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `start_load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:297:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/controller.rb:59:in `run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:144:in `block in run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `catch_exceptions'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:143:in `run'
+cpu_monitor_control.rb:4:in `<main>'
+RestClient.post "localhost:3000/update", 623 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"623", "Content-Type"=>"application/json"
+# => 404 NotFound | text/html 41958 bytes
+E, [2016-05-30T14:40:36.552846 #15751] ERROR -- : 404 Resource Not Found (RestClient::ResourceNotFound)
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/abstract_response.rb:74:in `return!'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:495:in `process_result'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:421:in `block in transmit'
+/home/leonam/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/net/http.rb:853:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:413:in `transmit'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:176:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:41:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient.rb:69:in `post'
+/home/leonam/repo/crossover/cpu-monitor-client/lib/cpu_monitor_job.rb:21:in `perform'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:16:in `block in execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `loop'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:44:in `<top (required)>'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `start_load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:297:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/controller.rb:59:in `run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:144:in `block in run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `catch_exceptions'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:143:in `run'
+cpu_monitor_control.rb:4:in `<main>'
+RestClient.post "localhost:3000/update", 623 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"623", "Content-Type"=>"application/json"
+# => 404 NotFound | text/html 41958 bytes
+E, [2016-05-30T14:40:41.678069 #15751] ERROR -- : 404 Resource Not Found (RestClient::ResourceNotFound)
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/abstract_response.rb:74:in `return!'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:495:in `process_result'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:421:in `block in transmit'
+/home/leonam/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/net/http.rb:853:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:413:in `transmit'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:176:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:41:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient.rb:69:in `post'
+/home/leonam/repo/crossover/cpu-monitor-client/lib/cpu_monitor_job.rb:21:in `perform'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:16:in `block in execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `loop'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:44:in `<top (required)>'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `start_load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:297:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/controller.rb:59:in `run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:144:in `block in run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `catch_exceptions'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:143:in `run'
+cpu_monitor_control.rb:4:in `<main>'
+RestClient.post "localhost:3000/update", 623 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"623", "Content-Type"=>"application/json"
+# => 404 NotFound | text/html 41958 bytes
+E, [2016-05-30T14:40:46.823206 #15751] ERROR -- : 404 Resource Not Found (RestClient::ResourceNotFound)
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/abstract_response.rb:74:in `return!'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:495:in `process_result'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:421:in `block in transmit'
+/home/leonam/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/net/http.rb:853:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:413:in `transmit'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:176:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:41:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient.rb:69:in `post'
+/home/leonam/repo/crossover/cpu-monitor-client/lib/cpu_monitor_job.rb:21:in `perform'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:16:in `block in execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `loop'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:44:in `<top (required)>'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `start_load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:297:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/controller.rb:59:in `run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:144:in `block in run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `catch_exceptions'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:143:in `run'
+cpu_monitor_control.rb:4:in `<main>'
+RestClient.post "localhost:3000/update", 623 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"623", "Content-Type"=>"application/json"
+# => 404 NotFound | text/html 41958 bytes
+E, [2016-05-30T14:40:52.009393 #15751] ERROR -- : 404 Resource Not Found (RestClient::ResourceNotFound)
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/abstract_response.rb:74:in `return!'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:495:in `process_result'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:421:in `block in transmit'
+/home/leonam/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/net/http.rb:853:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:413:in `transmit'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:176:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient/request.rb:41:in `execute'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/rest-client-1.8.0/lib/restclient.rb:69:in `post'
+/home/leonam/repo/crossover/cpu-monitor-client/lib/cpu_monitor_job.rb:21:in `perform'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:16:in `block in execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `loop'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:44:in `<top (required)>'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `start_load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:297:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/controller.rb:59:in `run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:144:in `block in run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `catch_exceptions'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:143:in `run'
+cpu_monitor_control.rb:4:in `<main>'
+I, [2016-05-30T14:41:04.132619 #16093]  INFO -- : CPU Monitor Client Started!
+I, [2016-05-30T14:41:04.132725 #16093]  INFO -- : Config: {"url"=>"localhost:3000/cpu_status", "id"=>"123456", "hostname"=>"leonam", "log_file"=>"log/cpu_monitor.log"}
+RestClient.post "localhost:3000/cpu_status", 624 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"624", "Content-Type"=>"application/json"
+# => 200 OK | application/json 47 bytes
+I, [2016-05-30T14:41:04.177205 #16093]  INFO -- : nil
+RestClient.post "localhost:3000/cpu_status", 623 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"623", "Content-Type"=>"application/json"
+# => 200 OK | application/json 47 bytes
+I, [2016-05-30T14:41:09.232412 #16093]  INFO -- : nil
+RestClient.post "localhost:3000/cpu_status", 623 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"623", "Content-Type"=>"application/json"
+# => 200 OK | application/json 47 bytes
+I, [2016-05-30T14:41:14.291231 #16093]  INFO -- : nil
+RestClient.post "localhost:3000/cpu_status", 623 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"623", "Content-Type"=>"application/json"
+# => 200 OK | application/json 47 bytes
+I, [2016-05-30T14:41:19.346027 #16093]  INFO -- : nil
+I, [2016-05-30T14:42:10.708153 #16160]  INFO -- : CPU Monitor Client Started!
+I, [2016-05-30T14:42:10.708226 #16160]  INFO -- : Config: {"url"=>"localhost:3000/cpu_status", "id"=>"123456", "hostname"=>"leonam", "log_file"=>"log/cpu_monitor.log"}
+RestClient.post "localhost:3000/cpu_status", 639 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"639", "Content-Type"=>"application/json"
+# => 200 OK | application/json 47 bytes
+I, [2016-05-30T14:42:10.739185 #16160]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"none"}
+RestClient.post "localhost:3000/cpu_status", 623 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"623", "Content-Type"=>"application/json"
+# => 200 OK | application/json 47 bytes
+I, [2016-05-30T14:42:15.797690 #16160]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"none"}
+I, [2016-05-30T14:42:19.420307 #16194]  INFO -- : CPU Monitor Client Started!
+I, [2016-05-30T14:42:19.420378 #16194]  INFO -- : Config: {"url"=>"localhost:3000/cpu_status", "id"=>"123456", "hostname"=>"leonam", "log_file"=>"log/cpu_monitor.log"}
+RestClient.post "localhost:3000/cpu_status", 639 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"639", "Content-Type"=>"application/json"
+# => 200 OK | application/json 47 bytes
+I, [2016-05-30T14:42:19.450569 #16194]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"none"}
+RestClient.post "localhost:3000/cpu_status", 624 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"624", "Content-Type"=>"application/json"
+# => 200 OK | application/json 47 bytes
+I, [2016-05-30T14:42:24.494915 #16194]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"none"}
+RestClient.post "localhost:3000/cpu_status", 633 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"633", "Content-Type"=>"application/json"
+# => 200 OK | application/json 47 bytes
+I, [2016-05-30T14:42:29.559942 #16194]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"none"}
+RestClient.post "localhost:3000/cpu_status", 633 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"633", "Content-Type"=>"application/json"
+# => 200 OK | application/json 47 bytes
+I, [2016-05-30T14:42:34.611254 #16194]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"none"}
+RestClient.post "localhost:3000/cpu_status", 633 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"633", "Content-Type"=>"application/json"
+# => 200 OK | application/json 47 bytes
+I, [2016-05-30T14:42:39.663755 #16194]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"none"}
+RestClient.post "localhost:3000/cpu_status", 633 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"633", "Content-Type"=>"application/json"
+# => 200 OK | application/json 47 bytes
+I, [2016-05-30T14:42:44.717195 #16194]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"none"}
+RestClient.post "localhost:3000/cpu_status", 633 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"633", "Content-Type"=>"application/json"
+# => 200 OK | application/json 47 bytes
+I, [2016-05-30T14:42:49.773281 #16194]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"none"}
+RestClient.post "localhost:3000/cpu_status", 633 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"633", "Content-Type"=>"application/json"
+# => 200 OK | application/json 49 bytes
+E, [2016-05-30T14:42:54.881901 #16194] ERROR -- : undefined method `reboot_after' for SystemMonitor:Module (NoMethodError)
+/home/leonam/repo/crossover/cpu-monitor-client/lib/cpu_monitor_job.rb:23:in `perform'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:16:in `block in execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `loop'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:44:in `<top (required)>'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `start_load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:297:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/controller.rb:56:in `run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:144:in `block in run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `catch_exceptions'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:143:in `run'
+cpu_monitor_control.rb:4:in `<main>'
+RestClient.post "localhost:3000/cpu_status", 633 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"633", "Content-Type"=>"application/json"
+# => 200 OK | application/json 49 bytes
+E, [2016-05-30T14:42:59.937750 #16194] ERROR -- : undefined method `reboot_after' for SystemMonitor:Module (NoMethodError)
+/home/leonam/repo/crossover/cpu-monitor-client/lib/cpu_monitor_job.rb:23:in `perform'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:16:in `block in execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `loop'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:44:in `<top (required)>'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `start_load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:297:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/controller.rb:56:in `run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:144:in `block in run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `catch_exceptions'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:143:in `run'
+cpu_monitor_control.rb:4:in `<main>'
+RestClient.post "localhost:3000/cpu_status", 633 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"633", "Content-Type"=>"application/json"
+# => 200 OK | application/json 49 bytes
+E, [2016-05-30T14:43:05.009981 #16194] ERROR -- : undefined method `reboot_after' for SystemMonitor:Module (NoMethodError)
+/home/leonam/repo/crossover/cpu-monitor-client/lib/cpu_monitor_job.rb:23:in `perform'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:16:in `block in execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `loop'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:44:in `<top (required)>'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `start_load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:297:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/controller.rb:56:in `run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:144:in `block in run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `catch_exceptions'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:143:in `run'
+cpu_monitor_control.rb:4:in `<main>'
+RestClient.post "localhost:3000/cpu_status", 633 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"633", "Content-Type"=>"application/json"
+# => 200 OK | application/json 49 bytes
+E, [2016-05-30T14:43:10.046422 #16194] ERROR -- : undefined method `reboot_after' for SystemMonitor:Module (NoMethodError)
+/home/leonam/repo/crossover/cpu-monitor-client/lib/cpu_monitor_job.rb:23:in `perform'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:16:in `block in execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `loop'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:44:in `<top (required)>'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `start_load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:297:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/controller.rb:56:in `run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:144:in `block in run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `catch_exceptions'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:143:in `run'
+cpu_monitor_control.rb:4:in `<main>'
+RestClient.post "localhost:3000/cpu_status", 633 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"633", "Content-Type"=>"application/json"
+# => 200 OK | application/json 49 bytes
+E, [2016-05-30T14:43:15.106202 #16194] ERROR -- : undefined method `reboot_after' for SystemMonitor:Module (NoMethodError)
+/home/leonam/repo/crossover/cpu-monitor-client/lib/cpu_monitor_job.rb:23:in `perform'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:16:in `block in execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `loop'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:44:in `<top (required)>'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `start_load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:297:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/controller.rb:56:in `run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:144:in `block in run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `catch_exceptions'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:143:in `run'
+cpu_monitor_control.rb:4:in `<main>'
+RestClient.post "localhost:3000/cpu_status", 633 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"633", "Content-Type"=>"application/json"
+# => 200 OK | application/json 49 bytes
+E, [2016-05-30T14:43:20.152284 #16194] ERROR -- : undefined method `reboot_after' for SystemMonitor:Module (NoMethodError)
+/home/leonam/repo/crossover/cpu-monitor-client/lib/cpu_monitor_job.rb:23:in `perform'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:16:in `block in execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `loop'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:44:in `<top (required)>'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `start_load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:297:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/controller.rb:56:in `run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:144:in `block in run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `catch_exceptions'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:143:in `run'
+cpu_monitor_control.rb:4:in `<main>'
+RestClient.post "localhost:3000/cpu_status", 633 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"633", "Content-Type"=>"application/json"
+# => 200 OK | application/json 49 bytes
+E, [2016-05-30T14:43:25.213857 #16194] ERROR -- : undefined method `reboot_after' for SystemMonitor:Module (NoMethodError)
+/home/leonam/repo/crossover/cpu-monitor-client/lib/cpu_monitor_job.rb:23:in `perform'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:16:in `block in execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `loop'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:44:in `<top (required)>'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `start_load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:297:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/controller.rb:56:in `run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:144:in `block in run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `catch_exceptions'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:143:in `run'
+cpu_monitor_control.rb:4:in `<main>'
+RestClient.post "localhost:3000/cpu_status", 633 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"633", "Content-Type"=>"application/json"
+# => 200 OK | application/json 49 bytes
+E, [2016-05-30T14:43:30.282786 #16194] ERROR -- : undefined method `reboot_after' for SystemMonitor:Module (NoMethodError)
+/home/leonam/repo/crossover/cpu-monitor-client/lib/cpu_monitor_job.rb:23:in `perform'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:16:in `block in execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `loop'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:44:in `<top (required)>'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `start_load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:297:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/controller.rb:56:in `run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:144:in `block in run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `catch_exceptions'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:143:in `run'
+cpu_monitor_control.rb:4:in `<main>'
+RestClient.post "localhost:3000/cpu_status", 633 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"633", "Content-Type"=>"application/json"
+# => 200 OK | application/json 49 bytes
+E, [2016-05-30T14:43:35.364032 #16194] ERROR -- : undefined method `reboot_after' for SystemMonitor:Module (NoMethodError)
+/home/leonam/repo/crossover/cpu-monitor-client/lib/cpu_monitor_job.rb:23:in `perform'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:16:in `block in execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `loop'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:44:in `<top (required)>'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `start_load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:297:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/controller.rb:56:in `run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:144:in `block in run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `catch_exceptions'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:143:in `run'
+cpu_monitor_control.rb:4:in `<main>'
+RestClient.post "localhost:3000/cpu_status", 628 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"628", "Content-Type"=>"application/json"
+# => 200 OK | application/json 49 bytes
+E, [2016-05-30T14:43:40.403920 #16194] ERROR -- : undefined method `reboot_after' for SystemMonitor:Module (NoMethodError)
+/home/leonam/repo/crossover/cpu-monitor-client/lib/cpu_monitor_job.rb:23:in `perform'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:16:in `block in execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `loop'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:44:in `<top (required)>'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `start_load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:297:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/controller.rb:56:in `run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:144:in `block in run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `catch_exceptions'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:143:in `run'
+cpu_monitor_control.rb:4:in `<main>'
+RestClient.post "localhost:3000/cpu_status", 628 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"628", "Content-Type"=>"application/json"
+# => 200 OK | application/json 49 bytes
+E, [2016-05-30T14:43:45.467931 #16194] ERROR -- : undefined method `reboot_after' for SystemMonitor:Module (NoMethodError)
+/home/leonam/repo/crossover/cpu-monitor-client/lib/cpu_monitor_job.rb:23:in `perform'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:16:in `block in execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `loop'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:44:in `<top (required)>'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `start_load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:297:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/controller.rb:56:in `run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:144:in `block in run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `catch_exceptions'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:143:in `run'
+cpu_monitor_control.rb:4:in `<main>'
+RestClient.post "localhost:3000/cpu_status", 628 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"628", "Content-Type"=>"application/json"
+# => 200 OK | application/json 49 bytes
+E, [2016-05-30T14:43:50.529503 #16194] ERROR -- : undefined method `reboot_after' for SystemMonitor:Module (NoMethodError)
+/home/leonam/repo/crossover/cpu-monitor-client/lib/cpu_monitor_job.rb:23:in `perform'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:16:in `block in execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `loop'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:14:in `execute'
+/home/leonam/repo/crossover/cpu-monitor-client/cpu_monitor.rb:44:in `<top (required)>'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:218:in `start_load'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/application.rb:297:in `start'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/controller.rb:56:in `run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:144:in `block in run'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `catch_exceptions'
+/home/leonam/.rvm/gems/ruby-2.3.0/gems/daemons-1.2.3/lib/daemons.rb:143:in `run'
+cpu_monitor_control.rb:4:in `<main>'
+I, [2016-05-30T14:44:00.032642 #16494]  INFO -- : CPU Monitor Client Started!
+I, [2016-05-30T14:44:00.032721 #16494]  INFO -- : Config: {"url"=>"localhost:3000/cpu_status", "id"=>"123456", "hostname"=>"leonam", "log_file"=>"log/cpu_monitor.log"}
+RestClient.post "localhost:3000/cpu_status", 629 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"629", "Content-Type"=>"application/json"
+# => 200 OK | application/json 49 bytes
+I, [2016-05-30T14:44:02.099499 #16494]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"reboot"}
+RestClient.post "localhost:3000/cpu_status", 628 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"628", "Content-Type"=>"application/json"
+# => 200 OK | application/json 49 bytes
+I, [2016-05-30T14:44:09.152348 #16494]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"reboot"}
+RestClient.post "localhost:3000/cpu_status", 628 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"628", "Content-Type"=>"application/json"
+# => 200 OK | application/json 49 bytes
+I, [2016-05-30T14:44:16.206148 #16494]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"reboot"}
+RestClient.post "localhost:3000/cpu_status", 628 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"628", "Content-Type"=>"application/json"
+# => 200 OK | application/json 49 bytes
+I, [2016-05-30T14:44:23.268064 #16494]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"reboot"}
+RestClient.post "localhost:3000/cpu_status", 628 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"628", "Content-Type"=>"application/json"
+# => 200 OK | application/json 49 bytes
+I, [2016-05-30T14:44:30.334159 #16494]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"reboot"}
+RestClient.post "localhost:3000/cpu_status", 628 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"628", "Content-Type"=>"application/json"
+# => 200 OK | application/json 47 bytes
+I, [2016-05-30T14:44:35.363251 #16494]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"none"}
+RestClient.post "localhost:3000/cpu_status", 628 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"628", "Content-Type"=>"application/json"
+# => 200 OK | application/json 47 bytes
+I, [2016-05-30T14:44:40.461198 #16494]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"none"}
+RestClient.post "localhost:3000/cpu_status", 628 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"628", "Content-Type"=>"application/json"
+# => 200 OK | application/json 47 bytes
+I, [2016-05-30T14:44:45.858671 #16494]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"none"}
+RestClient.post "localhost:3000/cpu_status", 628 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"628", "Content-Type"=>"application/json"
+# => 200 OK | application/json 47 bytes
+I, [2016-05-30T14:44:50.926728 #16494]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"none"}
+RestClient.post "localhost:3000/cpu_status", 628 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"628", "Content-Type"=>"application/json"
+# => 200 OK | application/json 47 bytes
+I, [2016-05-30T14:44:55.967554 #16494]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"none"}
+RestClient.post "localhost:3000/cpu_status", 628 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"628", "Content-Type"=>"application/json"
+# => 200 OK | application/json 47 bytes
+I, [2016-05-30T14:45:01.028401 #16494]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"none"}
+RestClient.post "localhost:3000/cpu_status", 628 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"628", "Content-Type"=>"application/json"
+# => 200 OK | application/json 47 bytes
+I, [2016-05-30T14:45:06.084650 #16494]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"none"}
+RestClient.post "localhost:3000/cpu_status", 628 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"628", "Content-Type"=>"application/json"
+# => 200 OK | application/json 47 bytes
+I, [2016-05-30T14:45:11.137678 #16494]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"none"}
+RestClient.post "localhost:3000/cpu_status", 628 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"628", "Content-Type"=>"application/json"
+# => 200 OK | application/json 47 bytes
+I, [2016-05-30T14:45:16.172109 #16494]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"none"}
+RestClient.post "localhost:3000/cpu_status", 628 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"628", "Content-Type"=>"application/json"
+# => 200 OK | application/json 47 bytes
+I, [2016-05-30T14:45:21.228323 #16494]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"none"}
+RestClient.post "localhost:3000/cpu_status", 628 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"628", "Content-Type"=>"application/json"
+# => 200 OK | application/json 47 bytes
+I, [2016-05-30T14:45:26.261143 #16494]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"none"}
+RestClient.post "localhost:3000/cpu_status", 628 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"628", "Content-Type"=>"application/json"
+# => 200 OK | application/json 47 bytes
+I, [2016-05-30T14:45:31.317627 #16494]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"none"}
+RestClient.post "localhost:3000/cpu_status", 628 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"628", "Content-Type"=>"application/json"
+# => 200 OK | application/json 47 bytes
+I, [2016-05-30T14:45:36.371605 #16494]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"none"}
+RestClient.post "localhost:3000/cpu_status", 628 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"628", "Content-Type"=>"application/json"
+# => 200 OK | application/json 47 bytes
+I, [2016-05-30T14:45:41.431248 #16494]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"none"}
+RestClient.post "localhost:3000/cpu_status", 628 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"628", "Content-Type"=>"application/json"
+# => 200 OK | application/json 47 bytes
+I, [2016-05-30T14:45:46.488769 #16494]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"none"}
+RestClient.post "localhost:3000/cpu_status", 628 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"628", "Content-Type"=>"application/json"
+# => 200 OK | application/json 47 bytes
+I, [2016-05-30T14:45:51.550707 #16494]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"none"}
+RestClient.post "localhost:3000/cpu_status", 628 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"628", "Content-Type"=>"application/json"
+# => 200 OK | application/json 47 bytes
+I, [2016-05-30T14:45:56.592430 #16494]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"none"}
+RestClient.post "localhost:3000/cpu_status", 628 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"628", "Content-Type"=>"application/json"
+# => 200 OK | application/json 47 bytes
+I, [2016-05-30T14:46:01.654546 #16494]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"none"}
+RestClient.post "localhost:3000/cpu_status", 628 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"628", "Content-Type"=>"application/json"
+# => 200 OK | application/json 47 bytes
+I, [2016-05-30T14:46:06.717482 #16494]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"none"}
+RestClient.post "localhost:3000/cpu_status", 628 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"628", "Content-Type"=>"application/json"
+# => 200 OK | application/json 47 bytes
+I, [2016-05-30T14:46:11.767620 #16494]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"none"}
+RestClient.post "localhost:3000/cpu_status", 620 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"620", "Content-Type"=>"application/json"
+# => 200 OK | application/json 47 bytes
+I, [2016-05-30T14:46:16.828116 #16494]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"none"}
+I, [2016-05-30T14:46:50.539827 #17025]  INFO -- : CPU Monitor Client Started!
+I, [2016-05-30T14:46:50.539915 #17025]  INFO -- : Config: {"url"=>"localhost:3000/cpu_status", "id"=>"123456", "hostname"=>"leonam", "log_file"=>"log/cpu_monitor.log"}
+RestClient.post "localhost:3000/cpu_status", 620 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"620", "Content-Type"=>"application/json"
+# => 200 OK | application/json 47 bytes
+I, [2016-05-30T14:46:50.575240 #17025]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"none"}
+RestClient.post "localhost:3000/cpu_status", 618 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"618", "Content-Type"=>"application/json"
+# => 200 OK | application/json 47 bytes
+I, [2016-05-30T14:46:55.641326 #17025]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"none"}
+RestClient.post "localhost:3000/cpu_status", 618 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"618", "Content-Type"=>"application/json"
+# => 200 OK | application/json 47 bytes
+I, [2016-05-30T14:47:00.695725 #17025]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"none"}
+RestClient.post "localhost:3000/cpu_status", 618 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"618", "Content-Type"=>"application/json"
+# => 200 OK | application/json 47 bytes
+I, [2016-05-30T14:47:05.750652 #17025]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"none"}
+RestClient.post "localhost:3000/cpu_status", 618 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"618", "Content-Type"=>"application/json"
+# => 200 OK | application/json 47 bytes
+I, [2016-05-30T14:47:10.796314 #17025]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"none"}
+RestClient.post "localhost:3000/cpu_status", 618 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"618", "Content-Type"=>"application/json"
+# => 200 OK | application/json 47 bytes
+I, [2016-05-30T14:47:15.878594 #17025]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"none"}
+RestClient.post "localhost:3000/cpu_status", 618 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"618", "Content-Type"=>"application/json"
+# => 200 OK | application/json 47 bytes
+I, [2016-05-30T14:47:20.931779 #17025]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"none"}
+RestClient.post "localhost:3000/cpu_status", 618 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"618", "Content-Type"=>"application/json"
+# => 200 OK | application/json 47 bytes
+I, [2016-05-30T14:47:25.985721 #17025]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"none"}
+RestClient.post "localhost:3000/cpu_status", 618 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"618", "Content-Type"=>"application/json"
+# => 200 OK | application/json 47 bytes
+I, [2016-05-30T14:47:31.056588 #17025]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"none"}
+RestClient.post "localhost:3000/cpu_status", 618 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"618", "Content-Type"=>"application/json"
+# => 200 OK | application/json 47 bytes
+I, [2016-05-30T14:47:36.110050 #17025]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"none"}
+RestClient.post "localhost:3000/cpu_status", 618 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"618", "Content-Type"=>"application/json"
+# => 200 OK | application/json 47 bytes
+I, [2016-05-30T14:47:41.233617 #17025]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"none"}
+RestClient.post "localhost:3000/cpu_status", 618 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"618", "Content-Type"=>"application/json"
+# => 200 OK | application/json 47 bytes
+I, [2016-05-30T14:47:46.298509 #17025]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"none"}
+RestClient.post "localhost:3000/cpu_status", 618 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"618", "Content-Type"=>"application/json"
+# => 200 OK | application/json 47 bytes
+I, [2016-05-30T14:47:51.348903 #17025]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"none"}
+RestClient.post "localhost:3000/cpu_status", 618 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"618", "Content-Type"=>"application/json"
+# => 200 OK | application/json 47 bytes
+I, [2016-05-30T14:47:56.388250 #17025]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"none"}
+I, [2016-05-30T14:47:59.590680 #17265]  INFO -- : CPU Monitor Client Started!
+I, [2016-05-30T14:47:59.590805 #17265]  INFO -- : Config: {"url"=>"localhost:3000/cpu_status", "id"=>"123456", "hostname"=>"leonam", "log_file"=>"log/cpu_monitor.log"}
+RestClient.post "localhost:3000/cpu_status", 620 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"620", "Content-Type"=>"application/json"
+# => 200 OK | application/json 47 bytes
+I, [2016-05-30T14:47:59.659164 #17265]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"none"}
+RestClient.post "localhost:3000/cpu_status", 619 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"619", "Content-Type"=>"application/json"
+# => 200 OK | application/json 47 bytes
+I, [2016-05-30T14:48:04.739388 #17265]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"none"}
+RestClient.post "localhost:3000/cpu_status", 618 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"618", "Content-Type"=>"application/json"
+# => 200 OK | application/json 47 bytes
+I, [2016-05-30T14:48:09.814284 #17265]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"none"}
+RestClient.post "localhost:3000/cpu_status", 618 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"618", "Content-Type"=>"application/json"
+# => 200 OK | application/json 47 bytes
+I, [2016-05-30T14:48:14.918651 #17265]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"none"}
+RestClient.post "localhost:3000/cpu_status", 618 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"618", "Content-Type"=>"application/json"
+# => 200 OK | application/json 47 bytes
+I, [2016-05-30T14:48:19.998681 #17265]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"none"}
+RestClient.post "localhost:3000/cpu_status", 618 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"618", "Content-Type"=>"application/json"
+# => 200 OK | application/json 47 bytes
+I, [2016-05-30T14:48:25.070873 #17265]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"none"}
+I, [2016-05-30T14:52:21.766451 #17668]  INFO -- : CPU Monitor Client Started!
+I, [2016-05-30T14:52:21.766521 #17668]  INFO -- : Config: {"url"=>"localhost:3000/cpu_status", "id"=>"123456", "hostname"=>"leonam", "log_file"=>"log/cpu_monitor.log"}
+RestClient.post "localhost:3000/cpu_status", 612 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"612", "Content-Type"=>"application/json"
+# => 200 OK | application/json 47 bytes
+I, [2016-05-30T14:52:21.879103 #17668]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"none"}
+RestClient.post "localhost:3000/cpu_status", 611 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"611", "Content-Type"=>"application/json"
+# => 200 OK | application/json 47 bytes
+I, [2016-05-30T14:52:26.993593 #17668]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"none"}
+RestClient.post "localhost:3000/cpu_status", 611 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"611", "Content-Type"=>"application/json"
+# => 200 OK | application/json 47 bytes
+I, [2016-05-30T14:52:32.096740 #17668]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"none"}
+RestClient.post "localhost:3000/cpu_status", 611 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"611", "Content-Type"=>"application/json"
+# => 200 OK | application/json 47 bytes
+I, [2016-05-30T14:52:37.188816 #17668]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"none"}
+RestClient.post "localhost:3000/cpu_status", 611 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"611", "Content-Type"=>"application/json"
+# => 200 OK | application/json 47 bytes
+I, [2016-05-30T14:52:42.341005 #17668]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"none"}
+RestClient.post "localhost:3000/cpu_status", 611 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"611", "Content-Type"=>"application/json"
+# => 200 OK | application/json 47 bytes
+I, [2016-05-30T14:52:47.427580 #17668]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"none"}
+RestClient.post "localhost:3000/cpu_status", 610 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"610", "Content-Type"=>"application/json"
+# => 200 OK | application/json 47 bytes
+I, [2016-05-30T14:52:52.527211 #17668]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"none"}
+RestClient.post "localhost:3000/cpu_status", 611 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"611", "Content-Type"=>"application/json"
+# => 200 OK | application/json 47 bytes
+I, [2016-05-30T14:52:57.621974 #17668]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"none"}
+RestClient.post "localhost:3000/cpu_status", 611 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"611", "Content-Type"=>"application/json"
+# => 200 OK | application/json 47 bytes
+I, [2016-05-30T14:53:02.734232 #17668]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"none"}
+RestClient.post "localhost:3000/cpu_status", 611 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"611", "Content-Type"=>"application/json"
+# => 200 OK | application/json 47 bytes
+I, [2016-05-30T14:53:07.841559 #17668]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"none"}
+RestClient.post "localhost:3000/cpu_status", 611 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"611", "Content-Type"=>"application/json"
+# => 200 OK | application/json 47 bytes
+I, [2016-05-30T14:53:12.909107 #17668]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"none"}
+RestClient.post "localhost:3000/cpu_status", 611 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"611", "Content-Type"=>"application/json"
+# => 200 OK | application/json 47 bytes
+I, [2016-05-30T14:53:18.016169 #17668]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"none"}
+RestClient.post "localhost:3000/cpu_status", 611 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"611", "Content-Type"=>"application/json"
+# => 200 OK | application/json 47 bytes
+I, [2016-05-30T14:53:23.107304 #17668]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"none"}
+RestClient.post "localhost:3000/cpu_status", 611 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"611", "Content-Type"=>"application/json"
+# => 200 OK | application/json 47 bytes
+I, [2016-05-30T14:53:28.209914 #17668]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"none"}
+RestClient.post "localhost:3000/cpu_status", 611 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"611", "Content-Type"=>"application/json"
+# => 200 OK | application/json 47 bytes
+I, [2016-05-30T14:53:33.294791 #17668]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"none"}
+RestClient.post "localhost:3000/cpu_status", 611 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"611", "Content-Type"=>"application/json"
+# => 200 OK | application/json 47 bytes
+I, [2016-05-30T14:53:38.381911 #17668]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"none"}
+RestClient.post "localhost:3000/cpu_status", 611 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"611", "Content-Type"=>"application/json"
+# => 200 OK | application/json 47 bytes
+I, [2016-05-30T14:53:43.469709 #17668]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"none"}
+RestClient.post "localhost:3000/cpu_status", 611 byte(s) length, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"611", "Content-Type"=>"application/json"
+# => 200 OK | application/json 47 bytes
+I, [2016-05-30T14:53:48.558378 #17668]  INFO -- : {"code"=>0, "message"=>"Success!", "action"=>"none"}

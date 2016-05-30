@@ -1,4 +1,4 @@
-url: 'localhost:8000'
+url: 'localhost:3000/cpu_status'
 id: '123456'
 hostname: 'leonam'
 log_file: 'log/cpu_monitor.log'

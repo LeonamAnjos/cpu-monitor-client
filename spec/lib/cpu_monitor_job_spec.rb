@@ -24,11 +24,11 @@ describe CpuMonitorJob do
 
     before do
       expect(SystemMonitor).to receive(:report).once.and_return report
-      expect(RestClient).to receive(:post).with(params[:url], payload.to_json, content_type: :json, accept: :json)
+      expect(RestClient).to receive(:post).with(params[:url], payload.to_json, content_type: :json, accept: :json).and_return({"code"=>0, "message"=>"Success!", "action"=>"none"}.to_json)
     end
 
     describe '#perform' do
-      its(:perform) { is_expected.to be_eql ''}
+      its(:perform) { is_expected.to eq({"code"=>0, "message"=>"Success!", "action"=>"none"})}
     end
   end
 
