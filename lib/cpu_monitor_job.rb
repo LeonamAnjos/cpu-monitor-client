@@ -18,7 +18,10 @@ class CpuMonitorJob
   end
 
   def perform
-    RestClient.post url, cpu_monitor_report.to_json, content_type: :json, accept: :json
+    response = JSON.parse(RestClient.post url, cpu_monitor_report.to_json, content_type: :json, accept: :json)
+    if (response['action'] == 'reboot')
+      SystemMonitor.reboot_after(2)
+    end
   end
 
   private

@@ -31,7 +31,10 @@ module SystemMonitor
     process
   end
 
-  private
+  def reboot_after(sec)
+    sleep(sec)
+    shell.execute "echo shutdown -h now"
+  end
 
   def self.shell
     SystemShell
