@@ -1,4 +1,4 @@
-url: 'localhost:3000/cpu_status'
+url: 'ec2-52-37-77-130.us-west-2.compute.amazonaws.com/cpu_status'
 id: '123456'
-hostname: 'my-host'
+hostname: 'mine'
 log_file: 'log/cpu_monitor.log'
