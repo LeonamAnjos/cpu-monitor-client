@@ -1,14 +1,15 @@
-# CPU Monitor Server
+# CPU Monitor
 
 ### Introduction
 
-Web application monitor that uses a NoSQL database (redis) for monitoring others computers by checking some system data, as follow:
-- CPU usage
-- Disk usage
-- Process running
+The solution is composed by 2 applications:
+- __CPU Monitor Server:__ web application that uses NoSQL database [Redis] for monitoring clients system;
+- __CPU Monitor Client:__ an agent that sends system information to the _CPU Monitor Server_.
+
+There is a Monitor Server DEMO running on http://ec2-52-37-77-130.us-west-2.compute.amazonaws.com/.
 
 ### Steps to prepare the source code
-##### Web Application Server
+##### CPU Monitor Server
 CPU Monitor Server requires [Redis] (http://redis.io/) running with default configuration.
 You can download _CPU Monitor Server_ project from [GitHub] (https://github.com/LeonamAnjos/cpu-monitor-server) or clone it with following command:
 ```sh
@@ -24,7 +25,7 @@ To run the tests, you can user _rspec_ command:
 $ rspec
 ```
 
-##### Agents
+##### CPU Monitor Client
 You can download _CPU Monitor Client_ project from [GitHub] (https://github.com/LeonamAnjos/cpu-monitor-client) or clone it with following command:
 ```sh
 $ git clone https://github.com/LeonamAnjos/cpu-monitor-client.git
@@ -44,10 +45,7 @@ The agent needs some environment information to perform. You can do it by editin
 - ___hostname___ - through the _hostname_ users can identify the client.
 - ___log_file___ - path and file name for logging.
 
-### Steps to deploy the server and agents
-
 ### Running
-
 To run the the agent in background:
 ```sh
 $ ruby cpu_monitor_control.rb start
