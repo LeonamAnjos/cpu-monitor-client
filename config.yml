@@ -1,4 +1,4 @@
 url: 'ec2-52-37-77-130.us-west-2.compute.amazonaws.com/cpu_status'
-id: '326546'
-hostname: 'other'
-log_file: 'log/cpu_monitor2.log'
+id: '123456'
+hostname: 'mine'
+log_file: 'log/cpu_monitor.log'
